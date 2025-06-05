@@ -39,7 +39,11 @@ public:
         if (isEmpty())
         {
             cout << "stack is empty." << endl;
-            return
+            return;
         }
+
+        cout << "Popped value:" << temp->data << endl;
+        top = temp->next; 
+        delete temp; 
     }
 };
