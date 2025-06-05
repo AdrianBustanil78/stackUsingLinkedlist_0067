@@ -31,6 +31,15 @@ public:
         newNode->next = top;
         top =newNode;
         cout << "Push value:" << value << endl;
-
     }
-}
+
+    void pop()
+    {
+        Node *temp = top;
+        if (isEmpty())
+        {
+            cout << "stack is empty." << endl;
+            return
+        }
+    }
+};
