@@ -100,6 +100,9 @@ int main()
         case 3:
             stack.push();
             break;
+        case 4:
+            cout << "Exiting program." << endl;
+            break;
         
     }
     
